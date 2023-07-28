@@ -40,7 +40,7 @@ def generate_report(report_id):
     # fetch data from the database, explicitly including 'store_id' in the columns to retrieve
     seven_days_ago = timezone.now() - timedelta(days=7)
     store_status_data = pd.DataFrame.from_records(
-        RestaurantStatus.objects.all(timestamp_utc__gte=seven_days_ago).values('store_id', 'timestamp_utc', 'status')
+        RestaurantStatus.objects.filter(timestamp_utc__gte=seven_days_ago).values('store_id', 'timestamp_utc', 'status')
     )
 
     # check if store_status_data is empty
