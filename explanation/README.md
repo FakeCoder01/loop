@@ -1,8 +1,8 @@
 ## Class Diagram
-![Alt Text](https://github.com/FakeCoder01/loop/tree/main/explanation/class_diagram.png)
+![Class Diagram](https://raw.githubusercontent.com/FakeCoder01/loop/main/explanation/class_diagram.png)
 
 ## Flowchart
-![Alt Text](https://github.com/FakeCoder01/loop/tree/main/explanation/flowchart.png)
+![Flowchar Diagram](https://raw.githubusercontent.com/FakeCoder01/loop/main/explanation/flowchart.png)
 
 ## Pseudocode 
 ```
